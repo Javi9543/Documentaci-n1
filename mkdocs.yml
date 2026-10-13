@@ -1,0 +1,7 @@
+site_name: Conversor de temperaturas
+theme: 
+  name:mkdocs
+nav:
+  - Inicio: index.md
+  - Instalacion: instalacion.md
+  - Uso: uso.md
