@@ -4,6 +4,7 @@ def conv(c):
 
 if __name__ == "__main__":
     print("Conversor de temperatura")
+    try
     #pido al usuario la temperatura en celsius
     celsius = float(input("Introduzca la temperatura el celsius: "))
 
