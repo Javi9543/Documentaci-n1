@@ -4,12 +4,16 @@ def conv(c):
 
 if __name__ == "__main__":
     print("Conversor de temperatura")
-    try
-    #pido al usuario la temperatura en celsius
-    celsius = float(input("Introduzca la temperatura el celsius: "))
+    try: 
 
-    #llamo a la funcion y convierto los ºCelsius a ºFahrenheit
-    conversion = conv(celsius)
+        #pido al usuario la temperatura en celsius
+        celsius = float(input("Introduzca la temperatura el celsius: "))
 
-    #devuelvo la temperatura.
-    print(f'{celsius} ºC equivalen a {conversion} ºF')
+        #llamo a la funcion y convierto los ºCelsius a ºFahrenheit
+        conversion = conv(celsius)
+
+        #devuelvo la temperatura.
+        print(f'{celsius} ºC equivalen a {conversion} ºF')
+    except ValueError:
+        print("El numero introducido no es valido.")
+    
